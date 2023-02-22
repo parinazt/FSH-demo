@@ -1,4 +1,4 @@
-# IG repo
+# FHIR IG repo
 This is a repo containing the documents of developing a demo Implementation Guide (IG) with FHIR Shorthand (FSH).
 
 o	An Implementation Guide (IG) in FHIR is a set of rules and guidelines for how to use FHIR in a specific context or use case. It can include a collection of FHIR resources, such as profiles, extensions, value sets, and examples that are specific to that context or use case.
