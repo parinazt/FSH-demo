@@ -1,0 +1,114 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "org.fshschool.courses.fsh-seminar-exercise",
+  "url": "http://fshschool.org/courses-fsh-seminar-exercise/ImplementationGuide/org.fshschool.courses.fsh-seminar-exercise",
+  "version": "0.1.0",
+  "name": "FSHSeminarExercise",
+  "status": "draft",
+  "publisher": "fshschool.org",
+  "contact": [
+    {
+      "name": "fshschool.org",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://fshschool.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "org.fshschool.courses.fsh-seminar-exercise",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.2.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/OSABodyMassIndex"
+        },
+        "name": "OSABodyMassIndex",
+        "description": "Body mass index, or BMI, is a measure of body size. It combines a person's weight with their height.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/OSAPatient"
+        },
+        "name": "OSAPatient",
+        "description": "An example Patient profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/OSAPractitioner"
+        },
+        "name": "OSAPractitioner",
+        "description": "Placeholder",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/osa-vs"
+        },
+        "name": "Obstructive Sleep Apnea Conditions",
+        "description": "Obstructive Sleep Apnea Conditions",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/osa-bmi-example"
+        },
+        "name": "osa-bmi-example",
+        "description": "Example of OSA BMI value",
+        "exampleCanonical": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSABodyMassIndex"
+      },
+      {
+        "reference": {
+          "reference": "Patient/osa-patient-jane-doe"
+        },
+        "name": "osa-patient-jane-doe",
+        "description": "Example OSA Patient.",
+        "exampleCanonical": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPatient"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/osa-practitioner-kyle-anydoc"
+        },
+        "name": "osa-practitioner-kyle-anydoc",
+        "description": "Placeholder - will be filled in in Exercise 3",
+        "exampleCanonical": "http://fshschool.org/courses-fsh-seminar-exercise/StructureDefinition/OSAPractitioner"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

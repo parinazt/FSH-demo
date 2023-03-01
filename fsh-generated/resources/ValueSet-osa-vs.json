@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ObstructiveSleepApneaVS",
+  "id": "osa-vs",
+  "title": "Obstructive Sleep Apnea Conditions",
+  "description": "Obstructive Sleep Apnea Conditions",
+  "version": "0.1.0",
+  "url": "http://fshschool.org/courses-fsh-seminar-exercise/ValueSet/osa-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept": [
+          {
+            "code": "G47.33",
+            "display": "Obstructive sleep apnea (adult) (pediatric)"
+          },
+          {
+            "code": "G47.30",
+            "display": "Sleep apnea, unspecified"
+          }
+        ]
+      }
+    ]
+  }
+}
