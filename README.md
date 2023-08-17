@@ -35,6 +35,6 @@ Ref: https://fshschool.org/courses/fsh-seminar/setup.html
 9) Mark Kramer & Chris Moesel - FHIR Shorthand | DevDays 2020 Virtual June: https://www.youtube.com/watch?v=kF03qOnX_xc
 10) Introduction - FHIR Implementation Guide Creation Training: https://www.youtube.com/watch?v=ovbRwbd0uD8&t=5s
 
-# Other useful video about FHIR: 
+# Other useful videos about FHIR: 
 1) FHIR for Developers - Getting Started: https://www.youtube.com/watch?v=m2O6HiA1Z7g&t=1429s
-2) Intro to FHIR: https://www.youtube.com/watch?v=YbQcJj1GqH0 (very good for the beginners)
+2) Intro to FHIR: https://www.youtube.com/watch?v=YbQcJj1GqH0 (very informative for beginners)
