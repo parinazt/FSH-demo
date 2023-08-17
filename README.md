@@ -41,3 +41,6 @@ Ref: https://fshschool.org/courses/fsh-seminar/setup.html
 
 # Json <-> FSH converter
 https://fshschool.org/FSHOnline/#/
+
+# HL7 FHIR DevDays Presentations and videos
+https://www.devdays.com/devdays-international-hybrid-edition-2022/
