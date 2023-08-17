@@ -38,3 +38,6 @@ Ref: https://fshschool.org/courses/fsh-seminar/setup.html
 # Other useful videos about FHIR: 
 1) FHIR for Developers - Getting Started: https://www.youtube.com/watch?v=m2O6HiA1Z7g&t=1429s
 2) Intro to FHIR: https://www.youtube.com/watch?v=YbQcJj1GqH0 (very informative for beginners)
+
+# Json <-> FSH converter
+https://fshschool.org/FSHOnline/#/
